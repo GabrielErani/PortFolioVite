@@ -19,7 +19,7 @@ import {
 
 <div className="flex items-center gap-4 self-start">
     <Avatar>
-        <AvatarImage src="src\assets\1000087130.JPG" />
+        <AvatarImage src='/1000087130.JPG' alt="Avatar" />
     </Avatar>
     <Label>Gabriel Cirilo Erani</Label>
 </div>
