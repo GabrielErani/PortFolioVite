@@ -37,7 +37,7 @@ const MainPage = () => {
             <div className="flex flex-col justify-center   p-2 rounded-xl md:flex-row max-w-screen">
                 <div className="flex flex-col items-center md:w-[50%]">
                 <h2 className="text-2xl">Site para Padaria</h2>
-                <img src="src\assets\projetosImages\panificadora37Projeto.jpeg" alt="Projeto Panificadora 37" className=" rounded-xl my-4 md:w-[70%] h-auto" />
+                <img src="/panificadora37Projeto.jpeg" alt="Projeto Panificadora 37" className=" rounded-xl my-4 md:w-[70%] h-auto" />
                 </div>
                 <p className="text-lg md:text-left md:w-[50%]"> Desenvolvi um site padaria da minha mãe como parte de um trabalho de Projeto de Extensão da faculdade.<br/></p>
 
