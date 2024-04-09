@@ -10,7 +10,7 @@ const MainPage = () => {
           <h1 className="my-16 md:text-7xl text-3xl">Sobre Mim</h1>
           <span className="h-3 bg-blue-400 w-10 rounded-full mb-16"></span>
         </div>
-        <p className="text-xl pt-sans-regular">
+        <p className="text-xl pt-sans-regular md:p-0 p-4">
           Olá! Meu nome é Gabriel, e estou atualmente no segundo ano do curso de
           Sistemas de Informação na Faculdade Barretos, no interior de São
           Paulo.<br/> Minha jornada na área de tecnologia começou por curiosidade e
