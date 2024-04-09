@@ -24,7 +24,7 @@ import {
     <Label>Gabriel Cirilo Erani</Label>
 </div>
 <nav className="flex ">
-<Button variant="link" className="hidden sm:block">Sobre Mim</Button>
+<a href="#SobreMim" ><Button variant="link" className="hidden sm:block">Sobre Mim</Button></a>
 <Button variant="link" className="hidden sm:block">Contato</Button>
 <Button variant="link"className="hidden sm:block">Projetos</Button>
 <Button variant="link"className="hidden sm:block">Home</Button>
@@ -40,7 +40,7 @@ import {
 <SheetTitle className="mb-12">Dê uma olhada!</SheetTitle>
 </SheetHeader>
 <Separator />
-<Button variant="link">Sobre Mim</Button>
+<a href="#SobreMim" ><Button variant="link">Sobre Mim</Button></a>
 <Separator />
 <Button variant="link">Contato</Button>
 <Separator />
