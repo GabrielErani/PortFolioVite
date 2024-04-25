@@ -36,19 +36,19 @@ const MainPage = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4.">
           <ProjectCard
-            imageSrc="public\panificadora37Projeto.jpeg"
+            imageSrc="\panificadora37Projeto.jpeg"
             projectName="Site para uma padaria de família"
             projectDescription="Desenvolvi esse site por conta de um projeto da faculdade"
             demoLink="https://panificadora37.com.br"
           />
           <ProjectCard
-            imageSrc="public\iphoneCalculatorCopy.png"
+            imageSrc="\iphoneCalculatorCopy.png"
             projectName="Nome do Projeto 2"
             projectDescription="Criei uma copia funcional da calculadora do Iphone para treinar minhas habilidades em React."
             demoLink="https://iphone-calculator-three.vercel.app/"
           />
           <ProjectCard
-            imageSrc="public\iphoneCalculatorCopy.png"
+            imageSrc="\iphoneCalculatorCopy.png"
             projectName="Nome do Projeto 3"
             projectDescription="Criei uma copia funcional da calculadora do Iphone para treinar minhas habilidades em React."
             demoLink="https://iphone-calculator-three.vercel.app/"
