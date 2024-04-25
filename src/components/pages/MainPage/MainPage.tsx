@@ -43,7 +43,7 @@ const MainPage = () => {
           />
           <ProjectCard
             imageSrc="\iphoneCalculatorCopy.png"
-            projectName="Nome do Projeto 2"
+            projectName="Cópia Funcional da Calculadora do Iphone"
             projectDescription="Criei uma copia funcional da calculadora do Iphone para treinar minhas habilidades em React."
             demoLink="https://iphone-calculator-three.vercel.app/"
           />
