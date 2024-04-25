@@ -1,5 +1,6 @@
 import "./MainPage.css";
 import HeaderMainPage from "./HeaderMainPage";
+import ProjectCard from "./ProjectCard";
 
 const MainPage = () => {
   return (
@@ -29,26 +30,32 @@ const MainPage = () => {
         </p>
       </section>
       <section className=" h-fit max-w-screen justify-center items-center flex flex-col" id="Projetos">
-      <div className="flex justify-center items-center flex-col w-full">
+        <div className="flex justify-center items-center flex-col w-full">
           <h1 className="my-8 md:text-7xl text-3xl">Projetos</h1>
           <span className="h-3 bg-blue-400 w-10 rounded-full mb-16"></span>
         </div>
-        <div className="grid grid-flow-row grid-cols-1 w-fit p-4 gap-8 ">
-            <div className="flex flex-col justify-center   p-2 rounded-xl md:flex-row max-w-screen">
-                <div className="flex flex-col items-center md:w-[50%]">
-                <h2 className="text-2xl">Site para Padaria</h2>
-                <img src="/panificadora37Projeto.jpeg" alt="Projeto Panificadora 37" className=" rounded-xl my-4 md:w-[70%] h-auto" />
-                </div>
-                <p className="text-lg md:text-left md:w-[50%]"> Desenvolvi um site padaria da minha mãe como parte de um trabalho de Projeto de Extensão da faculdade.<br/></p>
-
-            </div>
-          
-</div>
-  
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4.">
+          <ProjectCard
+            imageSrc="public\panificadora37Projeto.jpeg"
+            projectName="Site para uma padaria de família"
+            projectDescription="Desenvolvi esse site por conta de um projeto da faculdade"
+            demoLink="https://panificadora37.com.br"
+          />
+          <ProjectCard
+            imageSrc="public\iphoneCalculatorCopy.png"
+            projectName="Nome do Projeto 2"
+            projectDescription="Criei uma copia funcional da calculadora do Iphone para treinar minhas habilidades em React."
+            demoLink="https://iphone-calculator-three.vercel.app/"
+          />
+          <ProjectCard
+            imageSrc="public\iphoneCalculatorCopy.png"
+            projectName="Nome do Projeto 3"
+            projectDescription="Criei uma copia funcional da calculadora do Iphone para treinar minhas habilidades em React."
+            demoLink="https://iphone-calculator-three.vercel.app/"
+          />
+        </div>
       </section>
     </>
-  )};
+)};
 
 export default MainPage;
-
-
