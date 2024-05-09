@@ -26,8 +26,8 @@ import {
 <nav className="flex ">
 <a href="#SobreMim" ><Button variant="link" className="hidden sm:block">Sobre Mim</Button></a>
 <Button variant="link" className="hidden sm:block">Contato</Button>
-<Button variant="link"className="hidden sm:block">Projetos</Button>
-<Button variant="link"className="hidden sm:block">Home</Button>
+<a href="#Projetos" ><Button variant="link"className="hidden sm:block">Projetos</Button></a>
+<a href="#SobreMim" ><Button variant="link" className="hidden sm:block">Home</Button></a>
 
 <ModeToggle />
 <Sheet>
@@ -40,13 +40,13 @@ import {
 <SheetTitle className="mb-12">Dê uma olhada!</SheetTitle>
 </SheetHeader>
 <Separator />
-<a href="#SobreMim" ><Button variant="link">Sobre Mim</Button></a>
+<a href="#SobreMim"><Button variant="link">Sobre Mim</Button></a>
 <Separator />
 <Button variant="link">Contato</Button>
 <Separator />
-<Button variant="link">Projetos</Button>
+<a href="#Projetos" ><Button variant="link">Projetos</Button></a>
 <Separator />
-<Button variant="link">Home</Button>
+<a href="#SobreMim"><Button variant="link">Home</Button></a>
 <Separator />
 </SheetContent>
 </Sheet>
