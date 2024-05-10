@@ -3,7 +3,7 @@ import HeaderMainPage from "./HeaderMainPage";
 import ProjectCard from "./ProjectCard";
 import AboutSection from "./section/AboutComponent";
 import SkillsSection from "./section/SkillsComponent";
-
+import ContactSection from "./section/ContactSection";
 
 const MainPage = () => {
   return (
@@ -40,6 +40,7 @@ const MainPage = () => {
         />
       </div>
     </section>
+    <ContactSection />  
   </>
   );
 };

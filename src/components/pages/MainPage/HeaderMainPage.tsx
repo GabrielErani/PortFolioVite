@@ -25,7 +25,7 @@ import {
 </div>
 <nav className="flex ">
 <a href="#SobreMim" ><Button variant="link" className="hidden sm:block">Sobre Mim</Button></a>
-<Button variant="link" className="hidden sm:block">Contato</Button>
+<a href="#Contato"><Button variant="link" className="hidden sm:block">Contato</Button></a>
 <a href="#Projetos" ><Button variant="link"className="hidden sm:block">Projetos</Button></a>
 <a href="#SobreMim" ><Button variant="link" className="hidden sm:block">Home</Button></a>
 
@@ -42,7 +42,7 @@ import {
 <Separator />
 <a href="#SobreMim"><Button variant="link">Sobre Mim</Button></a>
 <Separator />
-<Button variant="link">Contato</Button>
+<a href="#Contato"><Button variant="link">Contato</Button></a>
 <Separator />
 <a href="#Projetos" ><Button variant="link">Projetos</Button></a>
 <Separator />
